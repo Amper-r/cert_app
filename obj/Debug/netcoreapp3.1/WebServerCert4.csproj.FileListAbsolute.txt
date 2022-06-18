@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\WebServer\WebServerCert4\bin\Debug\netcoreapp3.1\WebServerCert4.exe
+C:\Users\User\Desktop\WebServer\WebServerCert4\bin\Debug\netcoreapp3.1\WebServerCert4.deps.json
+C:\Users\User\Desktop\WebServer\WebServerCert4\bin\Debug\netcoreapp3.1\WebServerCert4.runtimeconfig.json
+C:\Users\User\Desktop\WebServer\WebServerCert4\bin\Debug\netcoreapp3.1\WebServerCert4.runtimeconfig.dev.json
+C:\Users\User\Desktop\WebServer\WebServerCert4\bin\Debug\netcoreapp3.1\WebServerCert4.dll
+C:\Users\User\Desktop\WebServer\WebServerCert4\bin\Debug\netcoreapp3.1\WebServerCert4.pdb
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.csprojAssemblyReference.cache
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.AssemblyInfo.cs
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.dll
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.pdb
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.genruntimeconfig.cache
+C:\Users\User\Desktop\WebServer\WebServerCert4\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WebServer\WebServerCert4\obj\Debug\netcoreapp3.1\WebServerCert4.csproj.CopyComplete

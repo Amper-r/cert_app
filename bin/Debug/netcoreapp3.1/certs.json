@@ -1,0 +1,597 @@
+[
+  {
+    "Archived": false,
+    "Extensions": [
+      {
+        "KeyUsages": 128,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.15",
+          "FriendlyName": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u044E\u0447\u0430"
+        },
+        "RawData": "AwIHgA=="
+      },
+      {
+        "CertificateAuthority": false,
+        "HasPathLengthConstraint": false,
+        "PathLengthConstraint": 0,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.19",
+          "FriendlyName": "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F"
+        },
+        "RawData": "MAA="
+      }
+    ],
+    "FriendlyName": "",
+    "HasPrivateKey": false,
+    "PrivateKey": null,
+    "IssuerName": {
+      "Name": "CN=Adobe Intermediate CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxIzAhBgNVBAMMGkFkb2JlIEludGVybWVkaWF0ZSBDQSAxMC0z"
+    },
+    "NotAfter": "2025-08-18T16:18:42+03:00",
+    "NotBefore": "2018-08-20T16:18:42+03:00",
+    "PublicKey": {
+      "EncodedKeyValue": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "MIICCgKCAgEAy0s4dVWGVL+KdRYk3EJVnKCe2iJtePWCybG+xmEorve+qZzhsUROpqq+kDPZgkVR/68aASVwBZeKRiy1EeXNzETDxAZfCe/jlEjO2xabAE2jlbpvTMeUlNmhPALkt0cauyc7kktURbCr5JhYx9EOCYnmRipFjBCRDXiql7TDuvWPaLLZAL/gAczj9qP/kQNQSPywdDSCWXfSraLxBENpNMsB2WZDSbtbjvu1tlGWOz/hrqP2b7475UJDvAuhsU21lhMbKtFLkAExMfIxaR34+B7DweIiuw5/HZl+go49ok375CdED2c5QqduuGnYx1XY6zaz6mLqx3Aj+nrUL6pohXjFiP4ukf13m0uKLJwLiXRJcdjncqvyWhQy2u9q3oQ5v/ScC58eFQOie3VwA9t3GdWklj4z+6ngssYMTri6IMQkE8Z/2FECZwdBtbj0AXD7C1Cl/xRYfUlxxON6JOn+3Ne1eOI1D7vYA4Sq3zqLJAxjEY9aA/lqS1LRIvPsbJCCA1kZKpb8taZVR9U2pctA+CxUCnwpmueTAIBgUhkWajmh0kIu1eyCvxQrppgkNMIueQXAbV09/bSQ2b4c4I5mZU6JVgqd+p6Kx5onzduEIv4D4HuqJheIHuzvEBRhpaixld6gjXnv6caRzOEpYmZAEddALLT1QntXUfAp2ZSeuMECAwEAAQ=="
+      },
+      "EncodedParameters": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "BQA="
+      },
+      "Key": {
+        "KeySize": 4096,
+        "LegalKeySizes": [
+          {
+            "MinSize": 512,
+            "MaxSize": 16384,
+            "SkipSize": 64
+          }
+        ],
+        "SignatureAlgorithm": "RSA",
+        "KeyExchangeAlgorithm": "RSA"
+      },
+      "Oid": {
+        "Value": "1.2.840.113549.1.1.1",
+        "FriendlyName": "RSA"
+      }
+    },
+    "RawData": "MIIFvjCCA6agAwIBAgIEaFEqQDANBgkqhkiG9w0BAQ0FADCBjTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExETAPBgNVBAcMCFNhbiBKb3NlMRYwFAYDVQQKDA1BZG9iZSBTeXN0ZW1zMRkwFwYDVQQLDBBDbG91ZCBUZWNobm9sb2d5MSMwIQYDVQQDDBpBZG9iZSBJbnRlcm1lZGlhdGUgQ0EgMTAtMzAeFw0xODA4MjAxMzE4NDJaFw0yNTA4MTgxMzE4NDJaMIGRMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxJzAlBgNVBAMMHkFkb2JlIENvbnRlbnQgQ2VydGlmaWNhdGUgMTAtNTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMtLOHVVhlS/inUWJNxCVZygntoibXj1gsmxvsZhKK73vqmc4bFETqaqvpAz2YJFUf+vGgElcAWXikYstRHlzcxEw8QGXwnv45RIztsWmwBNo5W6b0zHlJTZoTwC5LdHGrsnO5JLVEWwq+SYWMfRDgmJ5kYqRYwQkQ14qpe0w7r1j2iy2QC/4AHM4/aj/5EDUEj8sHQ0gll30q2i8QRDaTTLAdlmQ0m7W477tbZRljs/4a6j9m++O+VCQ7wLobFNtZYTGyrRS5ABMTHyMWkd+Pgew8HiIrsOfx2ZfoKOPaJN++QnRA9nOUKnbrhp2MdV2Os2s+pi6sdwI/p61C+qaIV4xYj+LpH9d5tLiiycC4l0SXHY53Kr8loUMtrvat6EOb/0nAufHhUDont1cAPbdxnVpJY+M/up4LLGDE64uiDEJBPGf9hRAmcHQbW49AFw+wtQpf8UWH1JccTjeiTp/tzXtXjiNQ+72AOEqt86iyQMYxGPWgP5aktS0SLz7GyQggNZGSqW/LWmVUfVNqXLQPgsVAp8KZrnkwCAYFIZFmo5odJCLtXsgr8UK6aYJDTCLnkFwG1dPf20kNm+HOCOZmVOiVYKnfqeiseaJ83bhCL+A+B7qiYXiB7s7xAUYaWosZXeoI157+nGkczhKWJmQBHXQCy09UJ7V1HwKdmUnrjBAgMBAAGjIDAeMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBDQUAA4ICAQCIpEoxHQmM1a/cHooG48XTTaf0CRIeCV53UGt9pH4/gXB23dZr9U57iXhU2N8xLdLOICEnH/nTXoK8eiGxW/E3pAzW/nBcab/wd4MIIiYRogcLhAO5DWVYXGiBF9fqBbtGkwLXma71Lj9MfgLbcUV3G1TleYcKHqDYPUnVpkqKBnTtLlToLTI6fI4WYY1BYTsxRk1JRRspeOXzLgRlF6YRencnt5Nq+74sU86DxLepHB+BnJwqiOOGst+DfSiY3JvlHSG/hSrtpsZ2OnvIeFg4KTIpFxVbszln1n/2/RO1UbozSNIo6cjU6+S2TLRbn1s5HtxBeKuY8AKKmGjoFVwmGq72xuDVNHCNNVRnPyqo1qpZuC200Oe5bqG2sbc5TDpB1eoEo06/JmQymx/IeKeRKUYre0B+euVSSH4KR/eqjIGLmkrjykHqEV9jURIywEiaKyFoyR+E+Hi2MUvA+H3oVSkzmrBvAdIeStBBLBHC6elzXP3eRNOOb/c65z70n3zPnbgwZUOORyqVxqTaJoTyDrftBviMk+QS6W8Jl3dz7KSEVjcO1O1Grx2hw3KJmRZtOiybK6bONQuawhCI4tkDCv+FTG1RPgCVNlL7nL+yPBBUIen+wOtLuZsJB5vQK1FhsGlQNT+wzqCxldQ/lzWjuqSaf+6OcKxCs2U31Nzl0w==",
+    "SerialNumber": "68512A40",
+    "SignatureAlgorithm": {
+      "Value": "1.2.840.113549.1.1.13",
+      "FriendlyName": "sha512RSA"
+    },
+    "SubjectName": {
+      "Name": "CN=Adobe Content Certificate 10-5, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGRMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxJzAlBgNVBAMMHkFkb2JlIENvbnRlbnQgQ2VydGlmaWNhdGUgMTAtNQ=="
+    },
+    "Thumbprint": "F0BD97B4EC6CD8B71C35631738259CF9F2E54381",
+    "Version": 3,
+    "Handle": {},
+    "Issuer": "CN=Adobe Intermediate CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+    "Subject": "CN=Adobe Content Certificate 10-5, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US"
+  },
+  {
+    "Archived": false,
+    "Extensions": [
+      {
+        "CertificateAuthority": false,
+        "HasPathLengthConstraint": false,
+        "PathLengthConstraint": 0,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.19",
+          "FriendlyName": "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F"
+        },
+        "RawData": "MAA="
+      },
+      {
+        "KeyUsages": 160,
+        "Critical": false,
+        "Oid": {
+          "Value": "2.5.29.15",
+          "FriendlyName": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u044E\u0447\u0430"
+        },
+        "RawData": "AwIFoA=="
+      },
+      {
+        "SubjectKeyIdentifier": "5848915EFEA5C4155B5DA6FAD065DB855783098F",
+        "Critical": false,
+        "Oid": {
+          "Value": "2.5.29.14",
+          "FriendlyName": "\u0418\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440 \u043A\u043B\u044E\u0447\u0430 \u0441\u0443\u0431\u044A\u0435\u043A\u0442\u0430"
+        },
+        "RawData": "BBRYSJFe/qXEFVtdpvrQZduFV4MJjw=="
+      }
+    ],
+    "FriendlyName": "Personal cert",
+    "HasPrivateKey": true,
+    "PrivateKey": {
+      "KeySize": 2048,
+      "LegalKeySizes": [
+        {
+          "MinSize": 512,
+          "MaxSize": 16384,
+          "SkipSize": 64
+        }
+      ],
+      "SignatureAlgorithm": "RSA",
+      "KeyExchangeAlgorithm": "RSA"
+    },
+    "IssuerName": {
+      "Name": "CN=Vladislav",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MBQxEjAQBgNVBAMTCVZsYWRpc2xhdg=="
+    },
+    "NotAfter": "2025-06-04T09:03:19+03:00",
+    "NotBefore": "2022-06-04T09:03:19+03:00",
+    "PublicKey": {
+      "EncodedKeyValue": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "MIIBCgKCAQEAtiAc8nzrC17S03ffBJ182QF6a5MrMl49oWEJMScQiYhYaH7+Z5aKSOtBuJNk65iY+jRSUDd1GSlemP2ittgw8D7lgbE8HASKeG4IJJ5DJpveIMOIs0F22jDIULHeEaKhyugtaXn0rWS4k/NLDvwG7ZTz9697Vwv1IpTa532ZPu9CJrOSV7WANv2hhK5X3B9T8j6mWiGsIrow88SzLRqsU1JpnenkMTVzBvzCW4Y70JJJO+evl9us4d7AqwpBWxemk9BohuHs8H7erwqLNv96aRgLhG+P3p7rS7Zx+7NheuEqBDf09hs/K/Wk9Lny3cIE6hu83J182dwLqkNImiltPQIDAQAB"
+      },
+      "EncodedParameters": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "BQA="
+      },
+      "Key": {
+        "KeySize": 2048,
+        "LegalKeySizes": [
+          {
+            "MinSize": 512,
+            "MaxSize": 16384,
+            "SkipSize": 64
+          }
+        ],
+        "SignatureAlgorithm": "RSA",
+        "KeyExchangeAlgorithm": "RSA"
+      },
+      "Oid": {
+        "Value": "1.2.840.113549.1.1.1",
+        "FriendlyName": "RSA"
+      }
+    },
+    "RawData": "MIIC5zCCAc+gAwIBAgIJAJ0EogpH260lMA0GCSqGSIb3DQEBCwUAMBQxEjAQBgNVBAMTCVZsYWRpc2xhdjAeFw0yMjA2MDQwNjAzMTlaFw0yNTA2MDQwNjAzMTlaMBQxEjAQBgNVBAMTCVZsYWRpc2xhdjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALYgHPJ86wte0tN33wSdfNkBemuTKzJePaFhCTEnEImIWGh+/meWikjrQbiTZOuYmPo0UlA3dRkpXpj9orbYMPA+5YGxPBwEinhuCCSeQyab3iDDiLNBdtowyFCx3hGiocroLWl59K1kuJPzSw78Bu2U8/eve1cL9SKU2ud9mT7vQiazkle1gDb9oYSuV9wfU/I+plohrCK6MPPEsy0arFNSaZ3p5DE1cwb8wluGO9CSSTvnr5fbrOHewKsKQVsXppPQaIbh7PB+3q8Kizb/emkYC4Rvj96e60u2cfuzYXrhKgQ39PYbPyv1pPS58t3CBOobvNydfNncC6pDSJopbT0CAwEAAaM8MDowDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBaAwHQYDVR0OBBYEFFhIkV7+pcQVW12m+tBl24VXgwmPMA0GCSqGSIb3DQEBCwUAA4IBAQB5O96bmL3jpEuZeguoodiNyxop/RzYXqXRn1o2//ln2FQYR0pMqgokoziaJFDVrThRx+F7M3rbg24GkAJ6zAOXDigHux9O8jKiKlGaTAhZacZm7zj/KKweqOUQG5c4YQMk+8dNwOo8EVCzQdSNb+Es2EJxADd9NRR/hyrjN0nDoZTZGnV7JkbLADcMC/rZYqUZAt3VST3PHl+wZK7NfJgu65FHfq/EH0LXcJ56Mx89eT4iRctQLmZHgUhMFL2/5Ceem/739516BXudH+coEVrc1/Scvi0MRKnfxr+Il3OPNJz9/k6oB+tnFccTRNamzH76h0qIa/Tcu1Iiyqoc6UAk",
+    "SerialNumber": "009D04A20A47DBAD25",
+    "SignatureAlgorithm": {
+      "Value": "1.2.840.113549.1.1.11",
+      "FriendlyName": "sha256RSA"
+    },
+    "SubjectName": {
+      "Name": "CN=Vladislav",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MBQxEjAQBgNVBAMTCVZsYWRpc2xhdg=="
+    },
+    "Thumbprint": "D93D75F9702918223CBC33605BC7693001B9CE4B",
+    "Version": 3,
+    "Handle": {},
+    "Issuer": "CN=Vladislav",
+    "Subject": "CN=Vladislav"
+  },
+  {
+    "Archived": false,
+    "Extensions": [
+      {
+        "KeyUsages": 4,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.15",
+          "FriendlyName": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u044E\u0447\u0430"
+        },
+        "RawData": "AwICBA=="
+      },
+      {
+        "CertificateAuthority": true,
+        "HasPathLengthConstraint": false,
+        "PathLengthConstraint": 0,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.19",
+          "FriendlyName": "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F"
+        },
+        "RawData": "MAMBAf8="
+      }
+    ],
+    "FriendlyName": "",
+    "HasPrivateKey": false,
+    "PrivateKey": null,
+    "IssuerName": {
+      "Name": "CN=Adobe Root CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGFMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxGzAZBgNVBAMMEkFkb2JlIFJvb3QgQ0EgMTAtMw=="
+    },
+    "NotAfter": "2068-08-04T20:37:58+03:00",
+    "NotBefore": "2018-08-17T20:37:58+03:00",
+    "PublicKey": {
+      "EncodedKeyValue": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "MIICCgKCAgEAkN/QKgnQYGAn8gmw6KxUJ0FnvI7XAmED/qDb5gVG8PnQFvPu6JoESmXoAYN/K8OaZoe0eSJRwLjNtKJJcSW9D2PvrO1eEpV4cbHOTaNqZS3KgBT3zxmXZxVN4jtm5JShOBfhzsYrPElgxbNop7TSzT3+r1IKBZZjsyAwzEyrIaWM56ZxB89tVhvZvs1t1TWrH0BTuYf9cw2zMjyI2gGyqMUf5RUd2LY2HHMq1mG5CLcsm2ZO8pBSCYMGuWYOlKTl+gCBfja/O5cLQOkWg2m8ixuXB8T7ZtuswmpCoLru1rlpmXmwjl3ffh6d5RTqJZzo+TpRidtBxcrEBPi9+JzKqgOtdX7K/CyxqMOqNqRzNViBVr2vzQ0VHpy42ip8g8sgdxuZaWBOvVj9LQXSf8dh/asfSDswnBxABRRGYjq5Y0Bc8tNnZ/jTFqiwei1OJv3rGaTbRdh74460tHBjTdwmqAOzWkDU2yKF/lTzKUY0l76wb9XvSUyin5rwpxRkH2AGxLC5QQaRDMIYK2Bz+CG2L577CqWGsoz6xIE//eVebRgsJ8cCwyQtwtxOWioDTpcU4byZgXnRw/SDrSes9j/PEr3x/1mYL0IWYgOsXOpsxsLMoe6YgKWFOWx3A531jbLeEQPaUooxDTekv/fRDXZkwgmt6rBAzjnVDXSnkdwpLIkCAwEAAQ=="
+      },
+      "EncodedParameters": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "BQA="
+      },
+      "Key": {
+        "KeySize": 4096,
+        "LegalKeySizes": [
+          {
+            "MinSize": 512,
+            "MaxSize": 16384,
+            "SkipSize": 64
+          }
+        ],
+        "SignatureAlgorithm": "RSA",
+        "KeyExchangeAlgorithm": "RSA"
+      },
+      "Oid": {
+        "Value": "1.2.840.113549.1.1.1",
+        "FriendlyName": "RSA"
+      }
+    },
+    "RawData": "MIIFtzCCA5+gAwIBAgIEdspSsjANBgkqhkiG9w0BAQ0FADCBhTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExETAPBgNVBAcMCFNhbiBKb3NlMRYwFAYDVQQKDA1BZG9iZSBTeXN0ZW1zMRkwFwYDVQQLDBBDbG91ZCBUZWNobm9sb2d5MRswGQYDVQQDDBJBZG9iZSBSb290IENBIDEwLTMwIBcNMTgwODE3MTczNzU4WhgPMjA2ODA4MDQxNzM3NThaMIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxIzAhBgNVBAMMGkFkb2JlIEludGVybWVkaWF0ZSBDQSAxMC0zMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkN/QKgnQYGAn8gmw6KxUJ0FnvI7XAmED/qDb5gVG8PnQFvPu6JoESmXoAYN/K8OaZoe0eSJRwLjNtKJJcSW9D2PvrO1eEpV4cbHOTaNqZS3KgBT3zxmXZxVN4jtm5JShOBfhzsYrPElgxbNop7TSzT3+r1IKBZZjsyAwzEyrIaWM56ZxB89tVhvZvs1t1TWrH0BTuYf9cw2zMjyI2gGyqMUf5RUd2LY2HHMq1mG5CLcsm2ZO8pBSCYMGuWYOlKTl+gCBfja/O5cLQOkWg2m8ixuXB8T7ZtuswmpCoLru1rlpmXmwjl3ffh6d5RTqJZzo+TpRidtBxcrEBPi9+JzKqgOtdX7K/CyxqMOqNqRzNViBVr2vzQ0VHpy42ip8g8sgdxuZaWBOvVj9LQXSf8dh/asfSDswnBxABRRGYjq5Y0Bc8tNnZ/jTFqiwei1OJv3rGaTbRdh74460tHBjTdwmqAOzWkDU2yKF/lTzKUY0l76wb9XvSUyin5rwpxRkH2AGxLC5QQaRDMIYK2Bz+CG2L577CqWGsoz6xIE//eVebRgsJ8cCwyQtwtxOWioDTpcU4byZgXnRw/SDrSes9j/PEr3x/1mYL0IWYgOsXOpsxsLMoe6YgKWFOWx3A531jbLeEQPaUooxDTekv/fRDXZkwgmt6rBAzjnVDXSnkdwpLIkCAwEAAaMjMCEwDgYDVR0PAQH/BAQDAgIEMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQENBQADggIBAHuHnJWUN8OwJ2IS+nIfk9abT5M5YM5p4r3CmIfBH/jsnBlN1ifDoJI9fZFnmyCNsmmMtpDBO43MnO3PALcg93LXfiSeMrY0Xj2k7UQJAEX0DiyNcUHcIbwqOxmOdBr30eTlAuPcYn9+AtJbt3IPdO7VmBilQA0Fohnlz2ZNIV+IBta1RDhIJCH5NxWXcsgT7Ahrv5VxuPjNyXL3adBUjA+ppEallafp3xQXGsYBW1kqFqL/AO+oXSTtXpss8aAGxFP4KONvX5e1i11QLrTfPCUOes9d1hIO7EZudP1QRrdZ4h64hz8rpIw0k6liVonROFJsS2P4zr3UGM6qVgeJIA0RH9tJqnhNwQVtNMCuRPXLcoeQoaOd9sUiTz5+pXuG5ba4PdJRFsCpuw/znaektILeQFxnQWcIiycTuiEEaF/TSFaM+iwNYiEEPMXUCbg8fO4SWdfUBNSL9RVqRBGWvbwKtqgi1a7hnb5vlTFhWuZNeQgNJf/joDFsFTzsn//ij20rQrfMMc6AXt0mbFEpbkRjA2Hp/frCbl/K9HjSvSGorsi0+icZfqwdt3gB+AGxi0DAGhAl5s3qT60JpNsSl+IfYiglE311AieI98wjb2lnHumjw/ZKIVkvWFur3pBzSUGwgO/xWjsW+h90YFjUD37wWKZGhpdlnrRRdkqnf/3E",
+    "SerialNumber": "76CA52B2",
+    "SignatureAlgorithm": {
+      "Value": "1.2.840.113549.1.1.13",
+      "FriendlyName": "sha512RSA"
+    },
+    "SubjectName": {
+      "Name": "CN=Adobe Intermediate CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxIzAhBgNVBAMMGkFkb2JlIEludGVybWVkaWF0ZSBDQSAxMC0z"
+    },
+    "Thumbprint": "D1DF7F06B769BCCB3F4479041EC1F06E9CD3CB1A",
+    "Version": 3,
+    "Handle": {},
+    "Issuer": "CN=Adobe Root CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+    "Subject": "CN=Adobe Intermediate CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US"
+  },
+  {
+    "Archived": false,
+    "Extensions": [
+      {
+        "KeyUsages": 4,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.15",
+          "FriendlyName": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u044E\u0447\u0430"
+        },
+        "RawData": "AwICBA=="
+      },
+      {
+        "CertificateAuthority": true,
+        "HasPathLengthConstraint": false,
+        "PathLengthConstraint": 0,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.19",
+          "FriendlyName": "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F"
+        },
+        "RawData": "MAMBAf8="
+      }
+    ],
+    "FriendlyName": "",
+    "HasPrivateKey": false,
+    "PrivateKey": null,
+    "IssuerName": {
+      "Name": "CN=Adobe Root CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGFMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxGzAZBgNVBAMMEkFkb2JlIFJvb3QgQ0EgMTAtMw=="
+    },
+    "NotAfter": "2068-08-04T20:37:59+03:00",
+    "NotBefore": "2018-08-17T20:37:59+03:00",
+    "PublicKey": {
+      "EncodedKeyValue": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "MIICCgKCAgEAxauzwTLa1YkX1dFil6/JxeAisb5PiC8iPYQBfW0fP3h2qzs8eI8RDsYf43mpcCqymY7Gsugwj9taRmENNI582SJ85AL1OyqTRSE+6bDTFCd1q+jTg+aSc+4x6MxR6fZilWdRUMDjFXwHKNPIbKrrbf6Qnu8tb4QPFVB9fKWAbtQN8r5djLgii0s0a6dRwk7O1rnJM5xF7gdlZ4FEK40qF+3+FXZvCqmFeklGy0fe2ex/kukPKWwjny5TAewGptxdyL5tFFsAmJoRWi6rWKD3SRkOLJmKYc6sFniRiExIlO0aVmN39v3MTABFyU32Xivg2uIhLvRkIuPemebaFSGICldRK1TAx2tNHNm3lva8yd1qIOUFvw5KPiaKLpz6U4OQjt0z8js9ZcoQsGCdaIUm/enbo9wBjg7tA/y9mtoDhLBYaGSA8MYZBx5ILsvfWHI19RsRiLvNQ5+HWLx9Svhh7DlhFTPuM+E7/w6QbaHvRELWn6rqWkquHhqMY1MrPchy6dIc6ALTaVKAnTgALXMNrMC80L3XiNSIvZMYq+MpBZrQU2EJjgrHMuBjneBHi0aLgjQNI7HUQIE47YwEe+N2lBd++cXmWi7cH9suzXPATk1BC37JoSwR1mPDxDIGBwLCvHvaTqWdmkERQ6hNYWnRCTBx4sTMXIMPuLD/+A23PocCAwEAAQ=="
+      },
+      "EncodedParameters": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "BQA="
+      },
+      "Key": {
+        "KeySize": 4096,
+        "LegalKeySizes": [
+          {
+            "MinSize": 512,
+            "MaxSize": 16384,
+            "SkipSize": 64
+          }
+        ],
+        "SignatureAlgorithm": "RSA",
+        "KeyExchangeAlgorithm": "RSA"
+      },
+      "Oid": {
+        "Value": "1.2.840.113549.1.1.1",
+        "FriendlyName": "RSA"
+      }
+    },
+    "RawData": "MIIFtzCCA5+gAwIBAgIEcy0p6DANBgkqhkiG9w0BAQ0FADCBhTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExETAPBgNVBAcMCFNhbiBKb3NlMRYwFAYDVQQKDA1BZG9iZSBTeXN0ZW1zMRkwFwYDVQQLDBBDbG91ZCBUZWNobm9sb2d5MRswGQYDVQQDDBJBZG9iZSBSb290IENBIDEwLTMwIBcNMTgwODE3MTczNzU5WhgPMjA2ODA4MDQxNzM3NTlaMIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxIzAhBgNVBAMMGkFkb2JlIEludGVybWVkaWF0ZSBDQSAxMC00MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxauzwTLa1YkX1dFil6/JxeAisb5PiC8iPYQBfW0fP3h2qzs8eI8RDsYf43mpcCqymY7Gsugwj9taRmENNI582SJ85AL1OyqTRSE+6bDTFCd1q+jTg+aSc+4x6MxR6fZilWdRUMDjFXwHKNPIbKrrbf6Qnu8tb4QPFVB9fKWAbtQN8r5djLgii0s0a6dRwk7O1rnJM5xF7gdlZ4FEK40qF+3+FXZvCqmFeklGy0fe2ex/kukPKWwjny5TAewGptxdyL5tFFsAmJoRWi6rWKD3SRkOLJmKYc6sFniRiExIlO0aVmN39v3MTABFyU32Xivg2uIhLvRkIuPemebaFSGICldRK1TAx2tNHNm3lva8yd1qIOUFvw5KPiaKLpz6U4OQjt0z8js9ZcoQsGCdaIUm/enbo9wBjg7tA/y9mtoDhLBYaGSA8MYZBx5ILsvfWHI19RsRiLvNQ5+HWLx9Svhh7DlhFTPuM+E7/w6QbaHvRELWn6rqWkquHhqMY1MrPchy6dIc6ALTaVKAnTgALXMNrMC80L3XiNSIvZMYq+MpBZrQU2EJjgrHMuBjneBHi0aLgjQNI7HUQIE47YwEe+N2lBd++cXmWi7cH9suzXPATk1BC37JoSwR1mPDxDIGBwLCvHvaTqWdmkERQ6hNYWnRCTBx4sTMXIMPuLD/+A23PocCAwEAAaMjMCEwDgYDVR0PAQH/BAQDAgIEMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQENBQADggIBACcviJpfeIdju1g7qV9Mb4b63lUdgEtAafaihzmkyKgchTuWLeKoS8hvPeB6KDQiQF1CkhksaA3SQ2l/9M2DwfKu06P57Z5VyMzCT9ACjHjUZtixkXVXu9t5XW+e+BVARqd52NaMAV0I8yj4nUq73fC///Jr3+QJuISNoEQELBHZ86iX6tup6FTaz31wsE+UzFrB2uZ8pdegRCKFtPtMWvWFoPzQz4htgTF0s8Jw2wvd5+zgtw/QaLrM9WfUj1RJV1KSoO3XhSWZ5x6qHu71rqAZzy4k7TPiyRuy+ZR5mXvTCPMHD0Z/i62CmBFg2/NkZLQvOkiewAdUdnNjp5NjQQJ7ic0P2qqxj+gDDFEFhgWN7fCV1EGibkEKtZRSve2Rudgbp9QPSEORtLlCDLldreaJj/IfWR6Fvfb97R3W/XbkBXHRtJuz6VDPEvqw3CPqtMtgeVksx1qTLmmgc7uz39AralkRqyPwmd3KZQZ1DN+IfhiDMFEdUcsE7OTco+Ymfv9euc/5fyPXotgLeLnUhjeaTp217L8eTLIdpslhlA0xZ1EBXbCqTdd4KoMnmJyc5zkQQR35L4dxYhdUOq0QELpbRaOVGwDoIU8MsJj/yHDKxQ1XQC+A51cfqXFzW47Q3jY2+wW36uTWqXBgosDaNHBCaCIu/n80P6xs1+/XfirH",
+    "SerialNumber": "732D29E8",
+    "SignatureAlgorithm": {
+      "Value": "1.2.840.113549.1.1.13",
+      "FriendlyName": "sha512RSA"
+    },
+    "SubjectName": {
+      "Name": "CN=Adobe Intermediate CA 10-4, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxIzAhBgNVBAMMGkFkb2JlIEludGVybWVkaWF0ZSBDQSAxMC00"
+    },
+    "Thumbprint": "BF89E52F8D681360E6B84941BD2F9BC0093309F6",
+    "Version": 3,
+    "Handle": {},
+    "Issuer": "CN=Adobe Root CA 10-3, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+    "Subject": "CN=Adobe Intermediate CA 10-4, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US"
+  },
+  {
+    "Archived": false,
+    "Extensions": [
+      {
+        "KeyUsages": 128,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.15",
+          "FriendlyName": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u044E\u0447\u0430"
+        },
+        "RawData": "AwIHgA=="
+      },
+      {
+        "CertificateAuthority": false,
+        "HasPathLengthConstraint": false,
+        "PathLengthConstraint": 0,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.19",
+          "FriendlyName": "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F"
+        },
+        "RawData": "MAA="
+      }
+    ],
+    "FriendlyName": "",
+    "HasPrivateKey": false,
+    "PrivateKey": null,
+    "IssuerName": {
+      "Name": "CN=Adobe Intermediate CA 10-4, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxIzAhBgNVBAMMGkFkb2JlIEludGVybWVkaWF0ZSBDQSAxMC00"
+    },
+    "NotAfter": "2025-08-18T16:20:00+03:00",
+    "NotBefore": "2018-08-20T16:20:00+03:00",
+    "PublicKey": {
+      "EncodedKeyValue": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "MIICCgKCAgEAzXtynifqzXNWg5Hr3lPymgIYA1nu//buu3bEIJSV25+V65xa9b4fNqo2OAEAZ8hcMk6z7TGdKiUTYHXrvDuOG3zTNEsyqIkmJUIbFFjp/Fxp4xcXng2eHT92LVj9ty4NWEJsEvABPqH0LXPJlYPm0EapTpL8Xafz5Jod/372hPbdJFOg6Jmy21GWifUcIBr5jcUV+PE+uH3JcGFyu+5QSN35ZdR2OGCyyp44ifcJB4m/hRgmJaGoonSzalviYNz5U0TSI1C+xY5DTxKQ1A0K8+HtvzRwp4ow3Dl0Qe3mV/T212OHNhqvRPIntbhYLftl/QaviDwb7bl4TqyWTqx8+bPT9M17IN6dJY+i2gpzeAjgo5d50FJ0RwzNkrce18I61mUSKoX6vI5/Phlbi0XWS6gAwBcj/N1YGnNYSQZbJ4Z/d29jLcKWiYE8NUbdQwr/mowesInHX2+Y3vBQHsjVKxZkSdzzRyf/DOop9rCssILxvXF/v6w45xAjavWBnX2qmnetY+5DG+nHdGO4UZXZnofe46qVHDlF9cmS+Wo7b7PQOdyLdGQJXjSsVCZBbnaVLUkb3P3WCcOCMRqlS6j3tmlXNhsHqSMyrqnbBoqxFkNLSanPWh1cjGanOHM57kAz+P31nTmrqpqkzyxV25QRBQH7lQn5PXhYHUywVXoABlcCAwEAAQ=="
+      },
+      "EncodedParameters": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "BQA="
+      },
+      "Key": {
+        "KeySize": 4096,
+        "LegalKeySizes": [
+          {
+            "MinSize": 512,
+            "MaxSize": 16384,
+            "SkipSize": 64
+          }
+        ],
+        "SignatureAlgorithm": "RSA",
+        "KeyExchangeAlgorithm": "RSA"
+      },
+      "Oid": {
+        "Value": "1.2.840.113549.1.1.1",
+        "FriendlyName": "RSA"
+      }
+    },
+    "RawData": "MIIFvjCCA6agAwIBAgIEJu7OYTANBgkqhkiG9w0BAQ0FADCBjTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExETAPBgNVBAcMCFNhbiBKb3NlMRYwFAYDVQQKDA1BZG9iZSBTeXN0ZW1zMRkwFwYDVQQLDBBDbG91ZCBUZWNobm9sb2d5MSMwIQYDVQQDDBpBZG9iZSBJbnRlcm1lZGlhdGUgQ0EgMTAtNDAeFw0xODA4MjAxMzIwMDBaFw0yNTA4MTgxMzIwMDBaMIGRMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxJzAlBgNVBAMMHkFkb2JlIENvbnRlbnQgQ2VydGlmaWNhdGUgMTAtNjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAM17cp4n6s1zVoOR695T8poCGANZ7v/27rt2xCCUldufleucWvW+HzaqNjgBAGfIXDJOs+0xnSolE2B167w7jht80zRLMqiJJiVCGxRY6fxcaeMXF54Nnh0/di1Y/bcuDVhCbBLwAT6h9C1zyZWD5tBGqU6S/F2n8+SaHf9+9oT23SRToOiZsttRlon1HCAa+Y3FFfjxPrh9yXBhcrvuUEjd+WXUdjhgssqeOIn3CQeJv4UYJiWhqKJ0s2pb4mDc+VNE0iNQvsWOQ08SkNQNCvPh7b80cKeKMNw5dEHt5lf09tdjhzYar0TyJ7W4WC37Zf0Gr4g8G+25eE6slk6sfPmz0/TNeyDenSWPotoKc3gI4KOXedBSdEcMzZK3HtfCOtZlEiqF+ryOfz4ZW4tF1kuoAMAXI/zdWBpzWEkGWyeGf3dvYy3ClomBPDVG3UMK/5qMHrCJx19vmN7wUB7I1SsWZEnc80cn/wzqKfawrLCC8b1xf7+sOOcQI2r1gZ19qpp3rWPuQxvpx3RjuFGV2Z6H3uOqlRw5RfXJkvlqO2+z0Dnci3RkCV40rFQmQW52lS1JG9z91gnDgjEapUuo97ZpVzYbB6kjMq6p2waKsRZDS0mpz1odXIxmpzhzOe5AM/j99Z05q6qapM8sVduUEQUB+5UJ+T14WB1MsFV6AAZXAgMBAAGjIDAeMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBDQUAA4ICAQCGGfagZmzPbqvInNWw9s2CYdmWFliGGd9PU/W1HI06O62tJIWL5QgP6+zWY6xuU99qxESx1oWBgVS+vIQt+G69pJ8XZeI/IyeobT1XEhjG+W9xZiCZ2blJ15RhDwd65s0+0uOu6bXWVvllxpL5lDF2UmHmg9qo684fJivOZVpVv/harIftLtl9sESoY2QE9DwPLfpMmkBkQlL2TnedLWy5BEnGmQSnUmoZS2gdrDGBiwCvZ4Wx+eHS5i2FXkxRkUucbSKsblyDzRMyOlwGfNzDm3Dx45OxM0e9zkGGHr8v8k31i4xjb2+aQxEnTFJy0Dtm4lVFMnvB7F8gB9lpB8ssUKZ78VQqCaYxiQrEBqGEgjsqvVdSZEpaYWmX1XuNxYVJb69kMXhO9D6yvh/LjxQFvZ50BsQVR5njl8mQjnrl/2qz0MISB4CBYwZ+5ETpl222jtZKOQB4gxJNpJnMYgrxn+rUpgTUC0D/nflzqJcbVeyHNt4wYAphxWKnr6dz2/RR0f1DBNBZvbywYMUOzE0R7xr7PYnQGRhcKns52YZpmEBQG+ucJzvFLdmLKHGExMfShLvSWyBW9pIUTDmI9mcCBD5uv0ss3SuUbuTsFCinWCmNpGlDfOfB/2tZ17NaTCkGu0UU1U1yOEZ/dT7d288xAqS4B2GTNUt3yayDafG0Pg==",
+    "SerialNumber": "26EECE61",
+    "SignatureAlgorithm": {
+      "Value": "1.2.840.113549.1.1.13",
+      "FriendlyName": "sha512RSA"
+    },
+    "SubjectName": {
+      "Name": "CN=Adobe Content Certificate 10-6, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MIGRMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxFjAUBgNVBAoMDUFkb2JlIFN5c3RlbXMxGTAXBgNVBAsMEENsb3VkIFRlY2hub2xvZ3kxJzAlBgNVBAMMHkFkb2JlIENvbnRlbnQgQ2VydGlmaWNhdGUgMTAtNg=="
+    },
+    "Thumbprint": "906CC149415780CFB79F39E1CF449F87CA6D4D16",
+    "Version": 3,
+    "Handle": {},
+    "Issuer": "CN=Adobe Intermediate CA 10-4, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US",
+    "Subject": "CN=Adobe Content Certificate 10-6, OU=Cloud Technology, O=Adobe Systems, L=San Jose, S=California, C=US"
+  },
+  {
+    "Archived": false,
+    "Extensions": [
+      {
+        "CertificateAuthority": false,
+        "HasPathLengthConstraint": false,
+        "PathLengthConstraint": 0,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.19",
+          "FriendlyName": "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F"
+        },
+        "RawData": "MAA="
+      },
+      {
+        "KeyUsages": 160,
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.15",
+          "FriendlyName": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043A\u043B\u044E\u0447\u0430"
+        },
+        "RawData": "AwIFoA=="
+      },
+      {
+        "EnhancedKeyUsages": [
+          {
+            "Value": "1.3.6.1.5.5.7.3.1",
+            "FriendlyName": "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043F\u043E\u0434\u043B\u0438\u043D\u043D\u043E\u0441\u0442\u0438 \u0441\u0435\u0440\u0432\u0435\u0440\u0430"
+          }
+        ],
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.37",
+          "FriendlyName": "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u043D\u044B\u0439 \u043A\u043B\u044E\u0447"
+        },
+        "RawData": "MAoGCCsGAQUFBwMB"
+      },
+      {
+        "Critical": true,
+        "Oid": {
+          "Value": "2.5.29.17",
+          "FriendlyName": "\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0435 \u0438\u043C\u044F \u0441\u0443\u0431\u044A\u0435\u043A\u0442\u0430"
+        },
+        "RawData": "MAuCCWxvY2FsaG9zdA=="
+      },
+      {
+        "Critical": false,
+        "Oid": {
+          "Value": "1.3.6.1.4.1.311.84.1.1",
+          "FriendlyName": null
+        },
+        "RawData": "AQ=="
+      }
+    ],
+    "FriendlyName": "ASP.NET Core HTTPS development certificate",
+    "HasPrivateKey": true,
+    "PrivateKey": {
+      "KeySize": 2048,
+      "LegalKeySizes": [
+        {
+          "MinSize": 512,
+          "MaxSize": 16384,
+          "SkipSize": 64
+        }
+      ],
+      "SignatureAlgorithm": "RSA",
+      "KeyExchangeAlgorithm": "RSA"
+    },
+    "IssuerName": {
+      "Name": "CN=localhost",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MBQxEjAQBgNVBAMTCWxvY2FsaG9zdA=="
+    },
+    "NotAfter": "2023-05-20T09:40:45+03:00",
+    "NotBefore": "2022-05-20T09:40:45+03:00",
+    "PublicKey": {
+      "EncodedKeyValue": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "MIIBCgKCAQEAqBJT/P19xlPZAgP2vaQI+pfgyK56jVzgPHBuZwgrqoN5KnuCRmPn7KfeVGz72gVaZ3xdCfQY30JYl0UzUpYDoUvuMEuisCglUMRroiLhjfMUbg1TdS2Wn3/JvwG2biEcYFN0ZefVY9id3IVWIIyXgJZRtoQ/LwAXdiT9vku2UT5j+K8YRs0q7bNIafHQqkSCRX+q7xbR2LoVLJ/O9TBZgwsas811uj4mrTvjltBrtRcYWSCbAXx+D/p0+MFVVrlNJyk8ks2lo0pz7MSojHK4WO0YItStteEGOwjbXTugoayPJhcxa40bUIMyOHS5PsN6mv4B7UFGjygLvVjHyS6VqQIDAQAB"
+      },
+      "EncodedParameters": {
+        "Oid": {
+          "Value": "1.2.840.113549.1.1.1",
+          "FriendlyName": "RSA"
+        },
+        "RawData": "BQA="
+      },
+      "Key": {
+        "KeySize": 2048,
+        "LegalKeySizes": [
+          {
+            "MinSize": 512,
+            "MaxSize": 16384,
+            "SkipSize": 64
+          }
+        ],
+        "SignatureAlgorithm": "RSA",
+        "KeyExchangeAlgorithm": "RSA"
+      },
+      "Oid": {
+        "Value": "1.2.840.113549.1.1.1",
+        "FriendlyName": "RSA"
+      }
+    },
+    "RawData": "MIIDDDCCAfSgAwIBAgIIHDS47p/w5T0wDQYJKoZIhvcNAQELBQAwFDESMBAGA1UEAxMJbG9jYWxob3N0MB4XDTIyMDUyMDA2NDA0NVoXDTIzMDUyMDA2NDA0NVowFDESMBAGA1UEAxMJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqBJT/P19xlPZAgP2vaQI+pfgyK56jVzgPHBuZwgrqoN5KnuCRmPn7KfeVGz72gVaZ3xdCfQY30JYl0UzUpYDoUvuMEuisCglUMRroiLhjfMUbg1TdS2Wn3/JvwG2biEcYFN0ZefVY9id3IVWIIyXgJZRtoQ/LwAXdiT9vku2UT5j+K8YRs0q7bNIafHQqkSCRX+q7xbR2LoVLJ/O9TBZgwsas811uj4mrTvjltBrtRcYWSCbAXx+D/p0+MFVVrlNJyk8ks2lo0pz7MSojHK4WO0YItStteEGOwjbXTugoayPJhcxa40bUIMyOHS5PsN6mv4B7UFGjygLvVjHyS6VqQIDAQABo2IwYDAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIFoDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDATAXBgNVHREBAf8EDTALgglsb2NhbGhvc3QwDwYKKwYBBAGCN1QBAQQBATANBgkqhkiG9w0BAQsFAAOCAQEAN083Ir83sN5nDtmRuVBz48NR7QBD+EtBlY7VQPQf0Spg+dLWgB1IQnGSa/GEAkOgcCToL+LhVqJqvqDi0f5BbQChkX3Ndw9xvd/noABQ/pViBgkSc6eoNiP088Jw+DKbmQwq5WhYXnvdjQ2MNNN9k8MZMX5hGjL2GZ9eKPBzKyIZJyuoc07LuKtCE8gYqaavQgjoYnD6ALctJDv8MrhXUP42FUgtWwAlTsITr+jstzDNNfg7MixIj5xyoTnMyRHymVNXEq0h2SSMPonWcVpWY7QqYcfSnF5eODcHEyJg2wdRVaW+Wo+aC5/AUn1wd5geq7ltWR0zN/GpwJAlHxkiqA==",
+    "SerialNumber": "1C34B8EE9FF0E53D",
+    "SignatureAlgorithm": {
+      "Value": "1.2.840.113549.1.1.11",
+      "FriendlyName": "sha256RSA"
+    },
+    "SubjectName": {
+      "Name": "CN=localhost",
+      "Oid": {
+        "Value": null,
+        "FriendlyName": null
+      },
+      "RawData": "MBQxEjAQBgNVBAMTCWxvY2FsaG9zdA=="
+    },
+    "Thumbprint": "67C0ED037874D989E8DBF1C25EAC9C0DBDF731E6",
+    "Version": 3,
+    "Handle": {},
+    "Issuer": "CN=localhost",
+    "Subject": "CN=localhost"
+  }
+]
